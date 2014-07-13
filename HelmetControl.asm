@@ -326,6 +326,8 @@ reti
  lpm R0,Z+
  mov t2,R0
  set_leds2:
+ ldi t1,0xFF
+ ldi t2,0xFF
  out PORTA,t1
  out PORTC,t2
  the_end:
