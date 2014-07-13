@@ -350,7 +350,7 @@ reti
  .db 0x00,0x02 // number of steps in the program (16bit)
  .db 0x20,0xFF // length of first step followed by value for PORTA the value for PORTC
  .db 0xFF,0x04 // values of portB followed by length of next step
- .db 0x00,0x00 // values of next step 
+ .db 0xFF,0xFF // values of next step 
  // program 2, length: 44
  .db 0x00,0x0E
  .db 0x10,0b00000001,0b00000000,0x10,0b00000010,0b00000000
